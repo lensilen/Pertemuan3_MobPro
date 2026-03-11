@@ -46,9 +46,7 @@ export default function ProductDetailScreen({ route, navigation }) {
         <Text style={styles.price}>{product.price}</Text>
         <View style={styles.descriptionSection}>
           <Text style={styles.descTitle}>Deskripsi Produk</Text>
-          <Text style={styles.descContent}>
-            {product.description || "Tidak ada deskripsi untuk produk ini."}
-          </Text>
+          <Text style={styles.descContent}>{product.description}</Text>
         </View>
       </View>
 

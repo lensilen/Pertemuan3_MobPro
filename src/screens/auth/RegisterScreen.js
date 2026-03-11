@@ -21,8 +21,7 @@ export default function RegisterScreen({ navigation }) {
       return;
     }
 
-    try {
-      // INI BAGIAN YANG TADI HILANG: Memasukkan data ke Context & Storage
+  try {
       await registerUser({
         fullName: name,
         email: email,
