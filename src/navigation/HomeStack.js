@@ -77,8 +77,13 @@ const styles = StyleSheet.create({
     width: width * 0.72,
   },
   shopInfo: { flexDirection: "row", alignItems: "center" },
-  titleText: { color: "white", fontSize: 30, fontWeight: "bold" },
-  cartContainer: { padding: 5 },
+  titleText: {
+    color: "white",
+    fontSize: 30,
+    fontWeight: "bold",
+    marginLeft: 15,
+  },
+  cartContainer: { padding: 5, marginLeft: 170 },
   badge: {
     position: "absolute",
     right: 0,

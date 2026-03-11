@@ -18,13 +18,6 @@ function CustomDrawerContent(props) {
         <Text style={styles.drawerTitle}>Menu Utama</Text>
       </View>
       <DrawerItem
-        label="Beranda"
-        icon={({ color, size }) => (
-          <Ionicons name="home-outline" color={color} size={size} />
-        )}
-        onPress={() => props.navigation.navigate("MainApp")}
-      />
-      <DrawerItem
         label="Logout"
         icon={({ color, size }) => (
           <Ionicons name="log-out-outline" color={color} size={size} />
@@ -35,7 +28,7 @@ function CustomDrawerContent(props) {
             {
               text: "Keluar",
               style: "destructive",
-              onPress: () => props.onLogout(), 
+              onPress: () => props.onLogout(),
             },
           ]);
         }}
